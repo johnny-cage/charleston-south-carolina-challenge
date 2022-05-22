@@ -2,6 +2,28 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Implementation Details
+
+> Code should be extensible enough for us to change to a different endpoint at any point in the future with little or no need for code modification.
+
+For this we use an `API_URL` environment variable that can be used to override the default endpoint.
+
+> Perform verification on the response above.
+
+Response verification is done via prop-type verifications which report violations to the browser console.
+
+> On the organization level check which date is newer (created_at/updated_at) and indicate in some way which one is newer visually.
+
+We render a red tag next to either date if one is greater than the other.
+
+> Error and exception handling.
+
+We leverage the `catch` feature of `Promise`s to acheive this. `try/catch` is another alternative if you use the `async/await` style syntax.
+
+> You must use sass for stylesheets and those must compile into CSS.
+
+The default `webpack` process provided via `create-react-app` allows this via the `sass` package which was installed after the project was created as `css` is the default language for styles. If `sass` is installed then our .sass files are transpiled at build time accordingly.
+
 ## Available Scripts
 
 In the project directory, you can run:
