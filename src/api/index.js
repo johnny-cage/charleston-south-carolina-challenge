@@ -1,4 +1,4 @@
-const API_URL = process.env.API_URL || 'https://api.github.com/orgs/boomtownroi'
+const API_URL = process.env.REACT_APP_API_URL || 'https://api.github.com/orgs/boomtownroi'
 
 const verifyResponse = async response => {
   const { status, statusText } = response
