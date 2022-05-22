@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 > Code should be extensible enough for us to change to a different endpoint at any point in the future with little or no need for code modification.
 
-For this we use an `REACT_APP_API_URL` environment variable that can be used to override the default endpoint. See https://create-react-app.dev/docs/adding-custom-environment-variables/ for more details.
+For this we use an `REACT_APP_API_URL` environment variable that can be used to override the default endpoint. See [adding-custom-envronment-variables](https://create-react-app.dev/docs/adding-custom-environment-variables/) for more details.
 
 > Perform verification on the response above.
 
